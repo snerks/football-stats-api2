@@ -20,7 +20,8 @@ const competitionNames = [
   "championship",
   "league-one",
   "league-two",
-  "scottish-premiership"
+  "scottish-premiership",
+  "spanish-la-liga"
 ];
 
 function App() {
@@ -81,10 +82,19 @@ function App() {
         const teamRows = responseSportsTableData?.payload[0].body.sportTables.tables[0].rows;
 
         const teamNameAbbrLinks = teamRows.map(teamRow => teamRow.cells[2].td.abbrLink); // .filter(i => i !== undefined);
-        const teamNameLinkTextItems = teamNameAbbrLinks.map(teamNameAbbrLink => teamNameAbbrLink!.link.split("/").slice(-1)[0]);
+        const teamNameLinkTextItems = teamNameAbbrLinks.map(teamNameAbbrLink => teamNameAbbrLink ? teamNameAbbrLink.link.split("/").slice(-1)[0] : null);
 
         allTeamNameAbbrLinks.push(...teamNameAbbrLinks);
-        allTeamNameLinkTextItems.push(...teamNameLinkTextItems);
+
+        const defined: string[] = [];
+
+        teamNameLinkTextItems.forEach(i => {
+          if (i != null) {
+            defined.push(i);
+          }
+        });
+
+        allTeamNameLinkTextItems.push(...defined);
       }
 
       const allTeamNameInfoItems: (TeamNameInfo | undefined)[] = allTeamNameAbbrLinks.map(teamNameAbbrLink => {

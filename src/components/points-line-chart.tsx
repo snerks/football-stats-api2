@@ -338,19 +338,6 @@ class PointsLineChart extends React.Component<
 
     if (this.state.showYears[2021]) {
       if (chartData.datasets) {
-        // const dataChartPoints: any[] = pointsRunningTotalsPerYear[2021].slice(0, dataPointCount).map((value, index) => {
-        //   const resultAny: any = {
-        //     x: index + 1,
-        //     y: value,
-        //   };
-
-        //   resultAny.event = this.props.eventsPerYear ? this.props.eventsPerYear[2021][index] : null;
-
-        //   const result: Chart.Point = resultAny as Chart.Point;
-
-        //   return result;
-        // });
-
         chartData.datasets.push({
           ...defaultChartDataSet,
           label: "2021-",
@@ -438,7 +425,7 @@ class PointsLineChart extends React.Component<
 
               if (isObject(context.raw)) {
                 if (label) {
-                  label += `: ${context.raw.y}`;
+                  label += `: ${context.raw.y} pts`;
                 }
 
                 if (label) {
@@ -453,7 +440,7 @@ class PointsLineChart extends React.Component<
                   }
 
                   if (event?.eventProgress?.status === "LIVE") {
-                    label += ` : ${event.eventProgress.status}`;
+                    label += ` : ${event.eventProgress.status} (${event.minutesElapsed}' ${event.minutesIntoAddedTime ? "+" + event.minutesIntoAddedTime : ""})`;
                   }
                 }
               } else {
