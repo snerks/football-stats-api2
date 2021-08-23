@@ -425,7 +425,7 @@ class PointsLineChart extends React.Component<
 
               if (isObject(context.raw)) {
                 if (label) {
-                  label += `: ${context.raw.y} pts`;
+                  label += `: ${context.raw.y === 1 ? context.raw.y + " pt" : context.raw.y + " pts"}`;
                 }
 
                 if (label) {
@@ -440,7 +440,7 @@ class PointsLineChart extends React.Component<
                   }
 
                   if (event?.eventProgress?.status === "LIVE") {
-                    label += ` : ${event.eventProgress.status} (${event.minutesElapsed}' ${event.minutesIntoAddedTime ? "+" + event.minutesIntoAddedTime : ""})`;
+                    label += ` : ${event.eventProgress.status} (${event.minutesElapsed}'${event.minutesIntoAddedTime ? " +" + event.minutesIntoAddedTime : ""})`;
                   }
                 }
               } else {
