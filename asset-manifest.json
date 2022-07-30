@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/football-stats-api2/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/football-stats-api2/static/js/main.ad9b7de9.chunk.js",
-    "main.js.map": "/football-stats-api2/static/js/main.ad9b7de9.chunk.js.map",
-    "runtime-main.js": "/football-stats-api2/static/js/runtime-main.2a68b01f.js",
-    "runtime-main.js.map": "/football-stats-api2/static/js/runtime-main.2a68b01f.js.map",
-    "static/js/2.58fe651d.chunk.js": "/football-stats-api2/static/js/2.58fe651d.chunk.js",
-    "static/js/2.58fe651d.chunk.js.map": "/football-stats-api2/static/js/2.58fe651d.chunk.js.map",
-    "static/js/3.dcc3bbc7.chunk.js": "/football-stats-api2/static/js/3.dcc3bbc7.chunk.js",
-    "static/js/3.dcc3bbc7.chunk.js.map": "/football-stats-api2/static/js/3.dcc3bbc7.chunk.js.map",
+    "main.css": "/football-stats-api2/static/css/main.a617e044.chunk.css",
+    "main.js": "/football-stats-api2/static/js/main.084c212a.chunk.js",
+    "main.js.map": "/football-stats-api2/static/js/main.084c212a.chunk.js.map",
+    "runtime-main.js": "/football-stats-api2/static/js/runtime-main.5dfad2d9.js",
+    "runtime-main.js.map": "/football-stats-api2/static/js/runtime-main.5dfad2d9.js.map",
+    "static/js/2.996e9192.chunk.js": "/football-stats-api2/static/js/2.996e9192.chunk.js",
+    "static/js/2.996e9192.chunk.js.map": "/football-stats-api2/static/js/2.996e9192.chunk.js.map",
+    "static/js/3.5758252c.chunk.js": "/football-stats-api2/static/js/3.5758252c.chunk.js",
+    "static/js/3.5758252c.chunk.js.map": "/football-stats-api2/static/js/3.5758252c.chunk.js.map",
     "index.html": "/football-stats-api2/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/football-stats-api2/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.58fe651d.chunk.js.LICENSE.txt": "/football-stats-api2/static/js/2.58fe651d.chunk.js.LICENSE.txt",
+    "static/css/main.a617e044.chunk.css.map": "/football-stats-api2/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.996e9192.chunk.js.LICENSE.txt": "/football-stats-api2/static/js/2.996e9192.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/football-stats-api2/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2a68b01f.js",
-    "static/js/2.58fe651d.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.ad9b7de9.chunk.js"
+    "static/js/runtime-main.5dfad2d9.js",
+    "static/js/2.996e9192.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.084c212a.chunk.js"
   ]
 }
