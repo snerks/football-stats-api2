@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/football-stats-api2/static/css/main.a617e044.chunk.css",
-    "main.js": "/football-stats-api2/static/js/main.084c212a.chunk.js",
-    "main.js.map": "/football-stats-api2/static/js/main.084c212a.chunk.js.map",
-    "runtime-main.js": "/football-stats-api2/static/js/runtime-main.5dfad2d9.js",
-    "runtime-main.js.map": "/football-stats-api2/static/js/runtime-main.5dfad2d9.js.map",
-    "static/js/2.996e9192.chunk.js": "/football-stats-api2/static/js/2.996e9192.chunk.js",
-    "static/js/2.996e9192.chunk.js.map": "/football-stats-api2/static/js/2.996e9192.chunk.js.map",
-    "static/js/3.5758252c.chunk.js": "/football-stats-api2/static/js/3.5758252c.chunk.js",
-    "static/js/3.5758252c.chunk.js.map": "/football-stats-api2/static/js/3.5758252c.chunk.js.map",
+    "main.js": "/football-stats-api2/static/js/main.f6f1342d.chunk.js",
+    "main.js.map": "/football-stats-api2/static/js/main.f6f1342d.chunk.js.map",
+    "runtime-main.js": "/football-stats-api2/static/js/runtime-main.c9372538.js",
+    "runtime-main.js.map": "/football-stats-api2/static/js/runtime-main.c9372538.js.map",
+    "static/js/2.854ddcc7.chunk.js": "/football-stats-api2/static/js/2.854ddcc7.chunk.js",
+    "static/js/2.854ddcc7.chunk.js.map": "/football-stats-api2/static/js/2.854ddcc7.chunk.js.map",
+    "static/js/3.5717c879.chunk.js": "/football-stats-api2/static/js/3.5717c879.chunk.js",
+    "static/js/3.5717c879.chunk.js.map": "/football-stats-api2/static/js/3.5717c879.chunk.js.map",
     "index.html": "/football-stats-api2/index.html",
     "static/css/main.a617e044.chunk.css.map": "/football-stats-api2/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.996e9192.chunk.js.LICENSE.txt": "/football-stats-api2/static/js/2.996e9192.chunk.js.LICENSE.txt",
+    "static/js/2.854ddcc7.chunk.js.LICENSE.txt": "/football-stats-api2/static/js/2.854ddcc7.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/football-stats-api2/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5dfad2d9.js",
-    "static/js/2.996e9192.chunk.js",
+    "static/js/runtime-main.c9372538.js",
+    "static/js/2.854ddcc7.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.084c212a.chunk.js"
+    "static/js/main.f6f1342d.chunk.js"
   ]
 }
