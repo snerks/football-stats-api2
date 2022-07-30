@@ -24,6 +24,9 @@ const competitionNames = [
   "spanish-la-liga"
 ];
 
+const minimumYear = 2017;
+const maximumYear = 2022;
+
 function App() {
   // const [footballScoresMatchListData, setFootballScoresMatchListData] = useState<
   //   FootballScoresMatchListData | undefined
@@ -175,12 +178,12 @@ function App() {
       const pointsPerYear: PointsPerYear = {};
       const eventsPerYear: EventsPerYear = {};
 
-      const minimumYear = 2016;
-      const maximumYear = 2021;
+      // const minimumYear = 2017;
+      // const maximumYear = 2022;
 
       for (let year = maximumYear; year >= minimumYear; year--) {
-        const startDateISO = `${year}-07-31`; // Was 08-01 - Scottish football started on 31 July
-        const endDateISO = `${year + 1}-07-30`;
+        const startDateISO = `${year}-07-29`; // Was 08-01 - Scottish football started on 31 July
+        const endDateISO = `${year + 1}-07-28`;
         const todayISO = new Date().toISOString().substr(0, 10);
 
         const tValue = `%2Fdata%2Fbbc-morph-football-scores-match-list-data%2FendDate%2F${endDateISO}%2FstartDate%2F${startDateISO}%2Fteam%2F${selectedTeamNameInfoItem.linkText}%2FtodayDate%2F${todayISO}%2Fversion%2F2.4.6?timeout=5`;
@@ -383,6 +386,8 @@ function App() {
         <PointsLineChart
           pointsPerYear={pointsPerYear}
           eventsPerYear={eventsPerYear}
+          minimumYear={minimumYear}
+          maximumYear={maximumYear}
         />
       }
 
