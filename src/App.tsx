@@ -4,7 +4,7 @@ import './App.css';
 import PointsLineChart, { EventsPerYear, PointsPerYear } from './components/points-line-chart';
 import { FootballScoresMatchListData, Event, Team, EventOutcome } from './models/football-scores-match-list';
 import { AbbrLink, SportsTableData } from './models/sports-table-data';
-import { uuid } from 'uuidv4';
+import { v4 as uuidv4 } from 'uuid';
 
 type TeamNameInfo = {
   linkText: string;
@@ -187,7 +187,7 @@ function App() {
         const endDateISO = `${year + 1}-07-28`;
         const todayISO = new Date().toISOString().substr(0, 10);
 
-        const tValue = `%2Fdata%2Fbbc-morph-football-scores-match-list-data%2FendDate%2F${endDateISO}%2FstartDate%2F${startDateISO}%2Fteam%2F${selectedTeamNameInfoItem.linkText}%2FtodayDate%2F${todayISO}%2Fversion%2F2.4.6?timeout=5&c=${uuid()}`;
+        const tValue = `%2Fdata%2Fbbc-morph-football-scores-match-list-data%2FendDate%2F${endDateISO}%2FstartDate%2F${startDateISO}%2Fteam%2F${selectedTeamNameInfoItem.linkText}%2FtodayDate%2F${todayISO}%2Fversion%2F2.4.6?timeout=5&c=${uuidv4()}`;
         const url = `https://push.api.bbci.co.uk/batch?t=${tValue}`;
 
         const responseJson = await fetch(url);
